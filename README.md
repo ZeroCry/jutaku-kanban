@@ -2,6 +2,16 @@
 
 Get offers from *immobilienscout24.de* directly to your Trello board.
 
+Each offer shows up neatly in a card, with the direct link to it in the card
+description. Seen offers are tracked in a text file and everything is
+configured through command line args–you can mix and match between
+
+* aggregating multiple searches in one list,
+* doing the same in multiple lists with no duplicates among them,
+* running searches independently,
+
+all while staying up to date via cron :)
+
 
 ## Setup
 
@@ -20,7 +30,7 @@ and pick the `id` of the list you want.
 
 ## Usage
 
-Refer to [setup](#Setup) for the first three arguments. The program uses a
+Refer to [setup](#setup) for the first three arguments. The program uses a
 simple text file–`SEEN`–to keep track of seen offers. Pass it a search `URL`
 directly from any *immobilienscout24.de* results page.
 
