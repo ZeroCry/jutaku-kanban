@@ -3,12 +3,12 @@
 Get offers from *immobilienscout24.de* directly to your Trello board.
 
 Each offer shows up neatly in a card, with the direct link to it in the card
-description. Seen offers are tracked in a text file and everything is
-configured through command line args–you can mix and match between
+description. Seen offers are tracked in text files and everything is
+configured through command line args–you can
 
-* aggregating multiple searches in one list,
-* doing the same in multiple lists with no duplicates among them,
-* running searches independently,
+* aggregate multiple searches in one list,
+* do the same in multiple lists,
+* run searches independently,
 
 all while staying up to date via cron :)
 
@@ -36,6 +36,7 @@ directly from any *immobilienscout24.de* results page.
 
     $ java -jar jutaku-kanban-1.0.0-standalone.jar API_KEY API_TOKEN LIST_ID SEEN URL
 
+**Note:** don't use the same file for different searches for now.
 
 ## Issues
 
