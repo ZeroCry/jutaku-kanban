@@ -40,5 +40,5 @@ directly from any *immobilienscout24.de* results page.
 
 ## Issues
 
-* Cards created via the Trello API don't show up in the iOS app (they do on the
-  web-app though).
+* ~~Cards created via the Trello API don't show up in the iOS app (they do on the
+  web-app though).~~ *Works as of Feb 2017*
